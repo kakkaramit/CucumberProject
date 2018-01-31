@@ -1,0 +1,4 @@
+com\tk20\qa\testcases\ApplicationLoginTest.class
+com\tk20\qa\runtest\TestRunner.class
+com\tk20\qa\testcases\AdministrationUserCreationTest.class
+com\tk20\qa\testcases\ApplicationAssignmentSubmissionTest.class

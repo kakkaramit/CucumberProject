@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="34" failures="0" name="com.tk20.qa.runtest.TestRunner" time="2.732" errors="8" skipped="23">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Free Login Test runner"/>
+    <property name="APPIUM_HOME" value="C:\Users\akakkar\AppData\Local\Programs\appium-desktop"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\akakkar\.jenkins"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="HUDSON_SERVER_COOKIE" value="cfa5daf66f4cfcb5"/>
+    <property name="POM_ARTIFACTID" value="CucumberProjectTestNG"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CucumberProjectTestNG"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\akakkar\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="user.name" value="aKakkar"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Free Login Test runner"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Free%20Login%20Test%20runner/10/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="OneDrive" value="C:\Users\akakkar\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_151\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\akakkar\AppData\Local"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="aKakkar"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\endorsed"/>
+    <property name="BUILD_ID" value="10"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_151"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Free%20Login%20Test%20runner/10/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\akakkar\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/Free%20Login%20Test%20runner/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="TSTK"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_144"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\akakkar"/>
+    <property name="USERDNSDOMAIN" value="TSTK.LOCAL"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LP0039"/>
+    <property name="POM_GROUPID" value="LatestMavenCucumberProject"/>
+    <property name="user.home" value="C:\Users\akakkar"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-Free Login Test runner-10"/>
+    <property name="JENKINS_SERVER_COOKIE" value="cfa5daf66f4cfcb5"/>
+    <property name="=E:" value="E:\Jenkins"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\akakkar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\lib;C:\Program Files\apache-maven\bin;C:\Program Files\nodejs\;C:\Users\akakkar\AppData\Local\Android\Sdk\build-tools\27.0.3;C:\Users\akakkar\AppData\Local\Android\Sdk\platform-tools;C:\Users\akakkar\AppData\Local\Android\Sdk\tools;C:\Users\akakkar\AppData\Local\Microsoft\WindowsApps;C:\Users\akakkar\AppData\Roaming\npm;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\akakkar\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.class.path" value="C:\Users\akakkar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven C:\Users\akakkar\.jenkins\war\WEB-INF\lib\remoting-3.14.jar C:\Users\akakkar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\akakkar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 61709"/>
+    <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\lib;C:\Program Files\apache-maven\bin;C:\Program Files\nodejs\;C:\Users\akakkar\AppData\Local\Android\Sdk\build-tools\27.0.3;C:\Users\akakkar\AppData\Local\Android\Sdk\platform-tools;C:\Users\akakkar\AppData\Local\Android\Sdk\tools;C:\Users\akakkar\AppData\Local\Microsoft\WindowsApps;C:\Users\akakkar\AppData\Roaming\npm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="NODE_HOME" value="C:\Program Files\nodejs"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.io.tmpdir" value="C:\Users\akakkar\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\akakkar\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_151\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="E:\Selenium Project Folder\WorkBook 4\CucumberProjectTestNG"/>
+    <property name="LOGONSERVER" value="\\MANAGESERVER"/>
+    <property name="USERDOMAIN" value="TSTK"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\akakkar\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Test_Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="10"/>
+    <property name="ANDROID_HOME" value="C:\Users\akakkar\AppData\Local\Android\Sdk"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\akakkar"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\akakkar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\akakkar\.jenkins\workspace\Free Login Test runner"/>
+    <property name="maven3.interceptor.common" value="C:\Users\akakkar\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+  </properties>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Given Open browser and login to the application." time="0.026">
+    <error message="timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;LP0039&apos;, ip: &apos;192.168.20.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.32.498550 (9dec58e66c31bc..., userDataDir: C:\Users\akakkar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: d1ee97cc954f63e0617f35ef3a63b63f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;LP0039&apos;, ip: &apos;192.168.20.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.32.498550 (9dec58e66c31bc..., userDataDir: C:\Users\akakkar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: d1ee97cc954f63e0617f35ef3a63b63f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy17.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:167)
+	at com.tk20.qa.base.TestBase.initialization(TestBase.java:199)
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.open_browser_and_login_to_the_application(ApplicationAssignmentSubmissionTest.java:31)
+	at ✽.Given Open browser and login to the application.(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:8)
+</error>
+    <system-out>Feature: Submit an assignment
+  Assignment should not be submitted without attaching any file or artifact
+  Assignment should not be submitted until submit button is clicked.
+  If user has attached a file or an artifact then on clicking submit button assigment should be submitted.
+Before navigating to: &apos;https://testing1.tk20.com&apos;
+Exception occured: org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;LP0039&apos;, ip: &apos;192.168.20.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.32.498550 (9dec58e66c31bc..., userDataDir: C:\Users\akakkar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: d1ee97cc954f63e0617f35ef3a63b63f
+********************************
+****
+E:\Selenium Project Folder\WorkBook 4\CucumberProjectTestNG\Screenshots\screenshot1517308539958.png
+********************************
+</system-out>
+    <system-err>Jan 30, 2018 3:58:11 PM com.tk20.qa.util.Log info
+INFO: Open browser and start testing.
+Jan 30, 2018 3:58:12 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a) on port 24371
+Only local connections are allowed.
+Jan 30, 2018 3:58:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[48.009][SEVERE]: Timed out receiving message from renderer: 37.888
+[48.018][SEVERE]: Timed out receiving message from renderer: -0.036
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." time="0.032">
+    <error message="timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;LP0039&apos;, ip: &apos;192.168.20.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.32.498550 (9dec58e66c31bc..., userDataDir: C:\Users\akakkar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: d1ee97cc954f63e0617f35ef3a63b63f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;LP0039&apos;, ip: &apos;192.168.20.174&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.32.498550 (9dec58e66c31bc..., userDataDir: C:\Users\akakkar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: d1ee97cc954f63e0617f35ef3a63b63f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy17.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:167)
+	at com.tk20.qa.base.TestBase.initialization(TestBase.java:199)
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.open_browser_and_login_to_the_application(ApplicationAssignmentSubmissionTest.java:31)
+	at ✽.Given Open browser and login to the application.(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:8)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="When User clicks &apos;Courses&apos; sidemenu" time="0.472">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Then Application navigates to Courses &gt; My Courses sie menu" time="0.476">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="When User clicks &apos;Coursework&apos; sidemenu." time="0.48">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="Then Application navigates to &apos;Assignments&apos; side menu" time="0.483">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check wheather assignment is displayed under &apos;Assigments&apos; sidemenu." name="And Assignment is displayed on the page and name of assignment is in link form" time="0.488">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Given I am on assignment side menu" time="0"/>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="When I clicked on name of an assignment" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_clicked_on_name_of_an_assignment(ApplicationAssignmentSubmissionTest.java:87)
+	at ✽.When I clicked on name of an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:18)
+</error>
+    <system-err>Jan 30, 2018 4:05:43 PM com.tk20.qa.util.Log info
+INFO: Click on link of an assignment.
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Scenario: Check whether user has attached an artifact within assignment" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_clicked_on_name_of_an_assignment(ApplicationAssignmentSubmissionTest.java:87)
+	at ✽.When I clicked on name of an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:18)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Then application navigates and displayed assignment details page" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="When I clicked select button corresponing to an artifact" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Check whether user has attached an artifact within assignment" name="Then An artifact form is displayed in editable mode" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Given I am on the Form page" time="0.003"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="When I selected date for &apos;Date&apos; type entry" time="0"/>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I input value for &apos;Decimal&apos; type entry" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_input_value_for_Decimal_type_entry(ApplicationAssignmentSubmissionTest.java:126)
+	at ✽.And I input value for &apos;Decimal&apos; type entry(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:27)
+</error>
+    <system-err>Jan 30, 2018 4:05:47 PM com.tk20.qa.util.Log info
+INFO: Enter decimal number.
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Scenario: Enter data in the form and save it" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_input_value_for_Decimal_type_entry(ApplicationAssignmentSubmissionTest.java:126)
+	at ✽.And I input value for &apos;Decimal&apos; type entry(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:27)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I upload file for &apos;File&apos; type entry" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select radio button for &apos;Likert&apos; type entry" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select value from &apos;Dropdown&apos; type entry" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select radio dutton for &apos;Radio&apos; type entry" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And i select check box for &apos;Checkbox&apos; type entry" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select first radio button for &apos;Rubric&apos; type entry" time="0.014">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I select second radio button for &apos;Rubric&apos; type entry" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I input text in &apos;Single Line Text&apos; tupe entry" time="0.018">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And I press &quot;Add&quot; button" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Then I should see &apos;Form saved&apos; and application navigates to Assignment details page." time="0.024">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="Then I submiited the assignment" time="0.026">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Enter data in the form and save it" name="And select yes for the submission alert message" time="0.028">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Recall assignment" name="When I selected checkbox corresponding to an assignment" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_selected_checkbox_corresponding_to_an_assignment(ApplicationAssignmentSubmissionTest.java:211)
+	at ✽.When I selected checkbox corresponding to an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:44)
+</error>
+    <system-out>********************************
+****
+E:\Selenium Project Folder\WorkBook 4\CucumberProjectTestNG\Screenshots\screenshot1517308548354.png
+********************************
+Scenario failed
+
+  # @tag3
+  Scenario: Enter data in the form and save it                                           # E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:24
+    Given I am on the Form page                                                          # ApplicationAssignmentSubmissionTest.i_am_on_the_Form_page()
+    When I selected date for &apos;Date&apos; type entry                                           # ApplicationAssignmentSubmissionTest.i_selected_date_for_Date_type_entry()
+    And I input value for &apos;Decimal&apos; type entry                                           # ApplicationAssignmentSubmissionTest.i_input_value_for_Decimal_type_entry()
+      java.lang.NullPointerException
+      	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_input_value_for_Decimal_type_entry(ApplicationAssignmentSubmissionTest.java:126)
+      	at ?.And I input value for &apos;Decimal&apos; type entry(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:27)
+
+    And I upload file for &apos;File&apos; type entry                                              # ApplicationAssignmentSubmissionTest.i_upload_file_for_File_type_entry()
+    And I select radio button for &apos;Likert&apos; type entry                                    # ApplicationAssignmentSubmissionTest.i_select_radio_button_for_Likert_type_entry()
+    And I select value from &apos;Dropdown&apos; type entry                                        # ApplicationAssignmentSubmissionTest.i_select_value_from_Dropdown_type_entry()
+    And I select radio dutton for &apos;Radio&apos; type entry                                     # ApplicationAssignmentSubmissionTest.i_select_radio_dutton_for_Radio_type_entry()
+    And i select check box for &apos;Checkbox&apos; type entry                                     # ApplicationAssignmentSubmissionTest.i_select_check_box_for_Checkbox_type_entry()
+    And I select first radio button for &apos;Rubric&apos; type entry                              # ApplicationAssignmentSubmissionTest.i_select_first_radio_button_for_Rubric_type_entry()
+    And I select second radio button for &apos;Rubric&apos; type entry                             # ApplicationAssignmentSubmissionTest.i_select_second_radio_button_for_Rubric_type_entry()
+    And I input text in &apos;Single Line Text&apos; tupe entry                                    # ApplicationAssignmentSubmissionTest.i_input_text_in_Single_Line_Text_tupe_entry()
+    And I press &quot;Add&quot; button                                                             # ApplicationAssignmentSubmissionTest.i_press_button(String)
+    Then I should see &apos;Form saved&apos; and application navigates to Assignment details page. # ApplicationAssignmentSubmissionTest.i_should_see_Form_saved_and_application_navigates_to_Assignment_details_page()
+    Then I submiited the assignment                                                      # ApplicationAssignmentSubmissionTest.i_submiited_the_assignment()
+    And select yes for the submission alert message                                      # ApplicationAssignmentSubmissionTest.select_yes_for_the_submission_alert_message()
+</system-out>
+    <system-err>Jan 30, 2018 4:05:48 PM com.tk20.qa.util.Log info
+INFO: Select checkbox for an assignment
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: Recall assignment" name="Scenario: Recall assignment" time="0.005">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_selected_checkbox_corresponding_to_an_assignment(ApplicationAssignmentSubmissionTest.java:211)
+	at ✽.When I selected checkbox corresponding to an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:44)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Recall assignment" name="And click &apos;Recall&apos; button" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Recall assignment" name="Then An assignment is recalled and pending flag is displayed corresponing to an assignment." time="0.017">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Recall assignment" name="And Close the brwser." time="0.019">
+    <skipped/>
+  </testcase>
+</testsuite>

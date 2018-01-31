@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="456.565732">
+<testcase classname="Submit an assignment" name="Check wheather assignment is displayed under 'Assigments' sidemenu." time="451.179159">
+<failure message="org.openqa.selenium.TimeoutException: timeout&#10;  (Session info: chrome=63.0.3239.132)&#10;  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'LP0039', ip: '192.168.20.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.32.498550 (9dec58e66c31bc..., userDataDir: C:\Users\akakkar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}&#10;Session ID: d1ee97cc954f63e0617f35ef3a63b63f&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)&#13;&#10;&#9;at com.sun.proxy.$Proxy17.get(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:167)&#13;&#10;&#9;at com.tk20.qa.base.TestBase.initialization(TestBase.java:199)&#13;&#10;&#9;at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.open_browser_and_login_to_the_application(ApplicationAssignmentSubmissionTest.java:31)&#13;&#10;&#9;at ✽.Given Open browser and login to the application.(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:8)&#13;&#10;"><![CDATA[Given Open browser and login to the application.............................failed
+When User clicks 'Courses' sidemenu.........................................skipped
+Then Application navigates to Courses > My Courses sie menu.................skipped
+When User clicks 'Coursework' sidemenu......................................skipped
+Then Application navigates to 'Assignments' side menu.......................skipped
+And Assignment is displayed on the page and name of assignment is in link form.skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'LP0039', ip: '192.168.20.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.32.498550 (9dec58e66c31bc..., userDataDir: C:\Users\akakkar\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: d1ee97cc954f63e0617f35ef3a63b63f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy17.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:167)
+	at com.tk20.qa.base.TestBase.initialization(TestBase.java:199)
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.open_browser_and_login_to_the_application(ApplicationAssignmentSubmissionTest.java:31)
+	at ✽.Given Open browser and login to the application.(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Submit an assignment" name="Check whether user has attached an artifact within assignment" time="4.384532">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_clicked_on_name_of_an_assignment(ApplicationAssignmentSubmissionTest.java:87)&#13;&#10;&#9;at ✽.When I clicked on name of an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:18)&#13;&#10;"><![CDATA[Given I am on assignment side menu..........................................passed
+When I clicked on name of an assignment.....................................failed
+Then application navigates and displayed assignment details page............skipped
+When I clicked select button corresponing to an artifact....................skipped
+Then An artifact form is displayed in editable mode.........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_clicked_on_name_of_an_assignment(ApplicationAssignmentSubmissionTest.java:87)
+	at ✽.When I clicked on name of an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:18)
+]]></failure>
+</testcase>
+<testcase classname="Submit an assignment" name="Enter data in the form and save it" time="0.340975">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_input_value_for_Decimal_type_entry(ApplicationAssignmentSubmissionTest.java:126)&#13;&#10;&#9;at ✽.And I input value for 'Decimal' type entry(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:27)&#13;&#10;"><![CDATA[Given I am on the Form page.................................................passed
+When I selected date for 'Date' type entry..................................passed
+And I input value for 'Decimal' type entry..................................failed
+And I upload file for 'File' type entry.....................................skipped
+And I select radio button for 'Likert' type entry...........................skipped
+And I select value from 'Dropdown' type entry...............................skipped
+And I select radio dutton for 'Radio' type entry............................skipped
+And i select check box for 'Checkbox' type entry............................skipped
+And I select first radio button for 'Rubric' type entry.....................skipped
+And I select second radio button for 'Rubric' type entry....................skipped
+And I input text in 'Single Line Text' tupe entry...........................skipped
+And I press "Add" button....................................................skipped
+Then I should see 'Form saved' and application navigates to Assignment details page..skipped
+Then I submiited the assignment.............................................skipped
+And select yes for the submission alert message.............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_input_value_for_Decimal_type_entry(ApplicationAssignmentSubmissionTest.java:126)
+	at ✽.And I input value for 'Decimal' type entry(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:27)
+]]></failure>
+</testcase>
+<testcase classname="Submit an assignment" name="Recall assignment" time="0.661066">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_selected_checkbox_corresponding_to_an_assignment(ApplicationAssignmentSubmissionTest.java:211)&#13;&#10;&#9;at ✽.When I selected checkbox corresponding to an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:44)&#13;&#10;"><![CDATA[When I selected checkbox corresponding to an assignment.....................failed
+And click 'Recall' button...................................................skipped
+Then An assignment is recalled and pending flag is displayed corresponing to an assignment..skipped
+And Close the brwser........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.tk20.qa.testcases.ApplicationAssignmentSubmissionTest.i_selected_checkbox_corresponding_to_an_assignment(ApplicationAssignmentSubmissionTest.java:211)
+	at ✽.When I selected checkbox corresponding to an assignment(E:/Selenium Project Folder/WorkBook 4/CucumberProjectTestNG/Features/AssignmentSubmission.feature:44)
+]]></failure>
+</testcase>
+</testsuite>
